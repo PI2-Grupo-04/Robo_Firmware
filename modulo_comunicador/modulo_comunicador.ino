@@ -3,11 +3,11 @@
 Falta: - obtençao da direcao do robo (via magnetometro)
        - Comando de movimentacao das rodas para o Controlador
 */
-//Necessario preencher essas definicoes com os dados do estabelecimente!
-#define SSID_CENTRAL  "TP-Link_8A8C" // Nome da rede wi-fi
-#define PASSWORD  "4123456789" // Senha da rede  wi-fi
-#define SSID_BASE "IDEIAPADnet" // ID da base de carregamento
-#define SSID_MESA1 "Fulano" // ID da base de carregamento
+//Necessario preencher essas definicoes com os dados do estabelecimento!
+#define SSID_CENTRAL  "SSID_do_roteador" // Nome da rede wi-fi
+#define PASSWORD  "batatinha1,2,3" // Senha da rede  wi-fi
+#define SSID_BASE "SSID_da_base" // ID da base de carregamento
+#define SSID_MESA1 "SSID_desta_mesa" // ID da base de carregamento
 #define SERVER_HOST "192.168.1.103" // IP local do servidor (central) websocket
 #define SERVER_PORT 8091 // Porta de conexão do servidor (deve ser a mesma do back-end!)
 #define LOCALIZACAO_CENTRAL {-4,-1} //Coordenadas (x,y) do roteador da rede em metros
